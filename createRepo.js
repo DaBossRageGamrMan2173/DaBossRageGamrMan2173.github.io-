@@ -27,3 +27,5 @@ const createRepo = async (repoName) => {
 const repos = ['card-game-frontend', 'card-game-backend'];
 
 repos.forEach(repo => createRepo(repo));
+
+cd path/to/your/create-repo-script
